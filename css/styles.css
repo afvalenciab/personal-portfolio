@@ -1,0 +1,107 @@
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: #313131;
+    margin: 0px 500px 10px 10px;
+}
+
+h1 strong{
+    color: #4E92D6;
+}
+
+figure{
+    margin: 0px;  
+}
+
+.header {
+    height: 60px;
+    background-color: #292929;
+    color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.header a{
+    color: #FFF;
+    text-decoration: none; 
+}
+
+.logo{
+    height: inherit;
+}
+
+ol, li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+}
+
+.menu{
+    height: inherit;
+    flex-shrink: 0;    
+}
+
+.menu ol{
+    display: flex;
+    height: inherit;
+}
+
+.menu ol li{
+    height: inherit;    
+}
+
+.menu ol li a{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+
+.log{
+    flex-shrink: 0;
+}
+
+.hero{
+    height: 300px;
+    background-color:#FAFAFA; 
+    background-image: url(../images/hero_1\ copy.png);
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.portfolio{
+    background: #FAFAFA;
+}
+
+.project{
+   border: 1px solid gray;
+   border-radius: 3px;
+   margin: 10px;
+   margin-bottom: 15px;
+   padding: 20px;
+   background: #FFF;
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-image-container{
+    width: 500px;
+}
