@@ -14,11 +14,20 @@ h1{
     line-height: 1.5;
     letter-spacing: -.2px;
     color: #313131;
-    margin: 0px 500px 10px 10px;
+    margin: 0px;    
 }
 
 h1 strong{
     color: #4E92D6;
+}
+
+h2{
+    color: #4E92D6;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding: 40px 0px;
+    margin: 0px;
 }
 
 figure{
@@ -26,7 +35,7 @@ figure{
 }
 
 .header {
-    height: 60px;
+    height: 50px;
     background-color: #292929;
     color: #FFF;
     display: flex;
@@ -37,10 +46,14 @@ figure{
 .header a{
     color: #FFF;
     text-decoration: none; 
+    font-size: 14px;
+    letter-spacing: .5px;
 }
 
 .logo{
     height: inherit;
+    display: flex;
+    align-items: center;
 }
 
 ol, li{
@@ -70,8 +83,6 @@ ol, li{
     padding: 0 10px;
 }
 
-
-
 .log{
     flex-shrink: 0;
 }
@@ -83,25 +94,127 @@ ol, li{
     background-size: auto 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
     background: #FAFAFA;
+    margin: 20px 0px;
+    padding: 0px 20px 20px;
 }
 
 .project{
-   border: 1px solid gray;
-   border-radius: 3px;
-   margin: 10px;
+   /* border: 1px solid gray; */
+   border-radius: 3px;   
    margin-bottom: 15px;
    padding: 20px;
    background: #FFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-
 .project-details{
     width: 500px;
 }
-
+.project-title{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.project-language,
+.project-date,
+.project-url
+{
+    margin: 10px 0px;
+}
+/* .project-date{
+    margin: 10px 0px;
+}
+.project-url{
+    margin: 10px 0px;
+} */
+.project-description{
+    font-size: 20px;
+}
 .project-image-container{
     width: 500px;
+}
+.project-details strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.study{
+    background-color: #FAFAFA;
+    margin: 20px 0px;
+    padding: 0px 20px;
+}
+
+.study-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.study-course{    
+    margin: 20px;
+    width: 480px;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #18425D;   
+    text-align: center;     
+}
+.study-image-container{
+    width: inherit;
+}
+.study-image{
+    width: inherit;
+}
+.study-detail{
+    margin: 20px 40px;
+    background-color: #FFF;
+    margin-top: -80px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.study-description{
+    text-align: left;
+}
+.study-url{
+    border: 1px solid #18425D;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #18425D;
+    border-radius: 3px;
+}
+
+.contact{
+    border: 1px solid red;
+    background-color: #4E92D6;
+    color: #FFF;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    color: #FFF;
+    font-size: 12px;
+    background-color: #244557;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    font-weight: lighter;
+}
+
+.footer a{
+    color: #8DC337;;
+    text-decoration: none;    
+}
+
+.footer p{
+    margin: 0px;
 }
