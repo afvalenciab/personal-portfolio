@@ -11,132 +11,144 @@
 
 <body>
     <header class="header">
-        <figure class="logo">
-            <img src="images/logo_av.png" alt="Logo de Andres Valencia" width="90px" />
-        </figure>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a class="link" href="#portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a class="link" href="#estudios">Estudios</a>
-                </li>
-                <li>
-                    <a class="link" href="#contacto">Trabajemos Juntos</a>
-                </li>
-            </ol>
-        </nav>        
+        <div class="container">
+            <figure class="logo">
+                <img src="images/logo_av.png" alt="Logo de Andres Valencia" width="90px" />
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#estudios">Estudios</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Trabajemos Juntos</a>
+                    </li>
+                </ol>
+            </nav>                    
+        </div>
     </header>
     <section class="hero">
-        <h1>
-            Hola! Soy
-            <strong>Andres Valencia</strong>
-            <br> Desarrollador frontend
-            <br> apasionado por la
-            <strong>tecnología</strong>
-        </h1>
-        <figure>
-            <!-- <img src="images/hero_1.jpg" alt="Foto Portada" width="400"> -->
-        </figure>
+        <div class="container"> 
+            <h1>
+                Hola! Soy
+                <strong>Andres Valencia</strong>
+                <br> Desarrollador frontend
+                <br> apasionado por la
+                <strong>tecnología</strong>
+            </h1>
+            <figure>
+                <img class="hero-image" src="images/hero_1.png" alt="Foto Portada">
+            </figure>
+        </div>
     </section>
     <section id="portafolio" class="portfolio">
-        <h2>Portafolio (Proyectos Destacados)</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Vinculación Digital Valores Bancolombia</h3>
-                <h6 class="project-language">Angular 4 / Typescript</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 01/06/2019</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.suvalor.com/vinculacionDigital/inicio</small></p>
-                <p class="project-description">Vinculación Digital Valores Bancolombia es una aplicación web creada para usuarios finales que desean vincularse
-                    como clientes para realizar inversiones en Valores Bancolombia</p>                
-            </div>
-            <figure class="project-image-container">
-                <img class="project-image" src="images/ProyectoVinculacion.png" alt="Proyecto vinculacion" width="500">
-            </figure>                
-        </article>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Vinculación Digital Valores Bancolombia</h3>
-                <h6 class="project-language">Angular 4 / Typescript</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 01/06/2019</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.suvalor.com/vinculacionDigital/inicio</small></p>
-                <p class="project-description">Vinculación Digital Valores Bancolombia es una aplicación web creada para usuarios finales que desean vincularse
-                    como clientes para realizar inversiones en Valores Bancolombia</p>                
-            </div>
-            <figure class="project-image-container">
-                <img class="project-image" src="images/ProyectoVinculacion.png" alt="Proyecto vinculacion" width="500">
-            </figure>                
-        </article>
+        <div class="container"> 
+            <h2>Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Vinculación Digital Valores Bancolombia</h3>
+                    <h6 class="project-language">Angular 4 / Typescript</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 01/06/2019</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.suvalor.com/vinculacionDigital/inicio</small></p>
+                    <p class="project-description">Vinculación Digital Valores Bancolombia es una aplicación web creada para usuarios finales que desean vincularse
+                        como clientes para realizar inversiones en Valores Bancolombia</p>                
+                </div>
+                <figure class="project-image-container">
+                    <img class="project-image" src="images/ProyectoVinculacion.png" alt="Proyecto vinculacion" width="500">
+                </figure>                
+            </article>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Vinculación Digital Valores Bancolombia</h3>
+                    <h6 class="project-language">Angular 4 / Typescript</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 01/06/2019</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.suvalor.com/vinculacionDigital/inicio</small></p>
+                    <p class="project-description">Vinculación Digital Valores Bancolombia es una aplicación web creada para usuarios finales que desean vincularse
+                        como clientes para realizar inversiones en Valores Bancolombia</p>                
+                </div>
+                <figure class="project-image-container">
+                    <img class="project-image" src="images/ProyectoVinculacion.png" alt="Proyecto vinculacion" width="500">
+                </figure>                
+            </article>
+        </div>
     </section>
     <section id="estudios" class="study">
-        <h2>Estudios </h2>
-        <div class="study-list">
-            <article class="study-course">
-                <figure class="study-image-container">
-                    <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
-                </figure>
-                <div class="study-detail" >
-                    <h3 class="study-title">Curso Angular</h3>
-                    <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
-                        UI, Animaciones, Testing, Seguridad, Rx.js</p>
-                    <a class="study-url" href="">Ver más</a>
-                </div>
-            </article>
-            <article class="study-course">
-                <figure class="study-image-container">
-                    <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
-                </figure>
-                <div class="study-detail" >
-                    <h3 class="study-title">Curso Angular</h3>
-                    <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
-                        UI, Animaciones, Testing, Seguridad, Rx.js</p>
-                    <a class="study-url" href="">Ver más</a>
-                </div>
-            </article>
-            <article class="study-course">
-                <figure class="study-image-container">
-                    <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
-                </figure>
-                <div class="study-detail" >
-                    <h3 class="study-title">Curso Angular</h3>
-                    <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
-                        UI, Animaciones, Testing, Seguridad, Rx.js</p>
-                    <a class="study-url" href="">Ver más</a>
-                </div>
-            </article>
-            <article class="study-course">
-                <figure class="study-image-container">
-                    <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
-                </figure>
-                <div class="study-detail" >
-                    <h3 class="study-title">Curso Angular</h3>
-                    <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
-                        UI, Animaciones, Testing, Seguridad, Rx.js</p>
-                    <a class="study-url" href="">Ver más</a>
-                </div>
-            </article>
+        <div class="container">
+            <h2>Estudios </h2>
+            <div class="study-list">
+                <article class="study-course">
+                    <figure class="study-image-container">
+                        <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
+                    </figure>
+                    <div class="study-detail" >
+                        <h3 class="study-title">Curso Angular</h3>
+                        <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
+                            UI, Animaciones, Testing, Seguridad, Rx.js</p>
+                        <a class="study-url" href="">Ver más</a>
+                    </div>
+                </article>
+                <article class="study-course">
+                    <figure class="study-image-container">
+                        <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
+                    </figure>
+                    <div class="study-detail" >
+                        <h3 class="study-title">Curso Angular</h3>
+                        <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
+                            UI, Animaciones, Testing, Seguridad, Rx.js</p>
+                        <a class="study-url" href="">Ver más</a>
+                    </div>
+                </article>
+                <article class="study-course">
+                    <figure class="study-image-container">
+                        <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
+                    </figure>
+                    <div class="study-detail" >
+                        <h3 class="study-title">Curso Angular</h3>
+                        <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
+                            UI, Animaciones, Testing, Seguridad, Rx.js</p>
+                        <a class="study-url" href="">Ver más</a>
+                    </div>
+                </article>
+                <article class="study-course">
+                    <figure class="study-image-container">
+                        <img class="study-image" src="images/diploma-angular.png" alt="Diploma Angular">
+                    </figure>
+                    <div class="study-detail" >
+                        <h3 class="study-title">Curso Angular</h3>
+                        <p class="study-description">Construcción de aplicaciones profesionales en Angular 4. Temas: Directivas, Rutas, HTTP, Servicios, Pipes, Angular
+                            UI, Animaciones, Testing, Seguridad, Rx.js</p>
+                        <a class="study-url" href="">Ver más</a>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
     <section id="contacto" class="contact">
-        <form action="/suscripcion/" class="contact-email"> 
-            <h3>¿Creamos algo juntos?</h3>          
-            <input type="email" placeholder="Déjame tu email">
-            <button type="submit">Enviar</button>
-        </form>
-        <div class="social">
-            <a href="" class="social-link platzi"></a>
-            <a href="" class="social-link linkedin"></a>
-            <a href="" class="social-link github"></a>
-            <a href="" class="social-link instagram"></a>
-            <a href="" class="social-link facebook"></a>
+        <div class="container">
+            <form action="/suscripcion/" class="contact-email"> 
+                <h3>¿Creamos algo juntos?</h3>          
+                <input type="email" placeholder="Déjame tu email">
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="social">
+                <a href="" class="social-link platzi"></a>
+                <a href="" class="social-link linkedin"></a>
+                <a href="" class="social-link github"></a>
+                <a href="" class="social-link instagram"></a>
+                <a href="" class="social-link facebook"></a>
+            </div>
         </div>
     </section>
     <footer class="footer">
-        <div>
-            <p>Andres Felipe Valencia Benitez - Portafolio Personal 2019 </p>
-        </div>        
-        <div>Designed by <a href="https://www.linkedin.com/in/andres-felipe-valencia-benitez-31233438/">Andres Valencia</a></div>
+        <div class="container">
+            <div>
+                <p>Andres Felipe Valencia Benitez - Portafolio Personal 2019 </p>
+            </div>        
+            <div>Designed by <a href="https://www.linkedin.com/in/andres-felipe-valencia-benitez-31233438/">Andres Valencia</a></div>
+        </div>
     </footer>
 </body>
 

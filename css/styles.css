@@ -34,6 +34,16 @@ figure{
     margin: 0px;  
 }
 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
 .header {
     height: 50px;
     background-color: #292929;
@@ -90,12 +100,21 @@ ol, li{
 .hero{
     height: 300px;
     background-color:#FAFAFA; 
-    background-image: url(../images/hero_1\ copy.png);
-    background-size: auto 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    /* background-image: url(../images/hero_1.png); */
+    /* background-size: auto 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.hero figure{
+    height: inherit;
+}
+
+.hero-image{
+    object-fit: cover;    
+    height: 300px;
 }
 
 .portfolio{
@@ -156,7 +175,7 @@ ol, li{
 }
 
 .study-course{    
-    margin: 20px;
+    margin: 10px;
     width: 480px;
     border-radius: 3px;
     overflow: hidden;
@@ -191,12 +210,75 @@ ol, li{
 }
 
 .contact{
-    border: 1px solid red;
     background-color: #4E92D6;
     color: #FFF;
     height: 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.contact-email{
+    /* padding: 0px 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-email h3{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.contact-email input{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px 20px 10px 25px;
+    background-image: url(../images/iconmonstr-email-1.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.contact-email button{
+    margin: 10px 0px;
+    padding: 10px 30px;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.social-link{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+
+.social-link.platzi{    
+    background-image: url(../images/platzi_favicon.webp);        
+}
+
+.social-link.linkedin{
+    background-image: url(../images/iconmonstr-instagram-11.svg);    
+}
+
+.social-link.github{
+    background-image: url(../images/iconmonstr-github-1.svg);
+}
+
+.social-link.instagram{
+    background-image: url(../images/iconmonstr-instagram-11.svg);
+}
+
+.social-link.facebook{
+    background-image: url(../images/iconmonstr-facebook-4.svg);
 }
 
 .footer{
