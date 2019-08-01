@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Reenie+Beanie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Andres F. Valencia B.</title>
 </head>
@@ -12,8 +13,9 @@
 <body>
     <header class="header">
         <div class="container">
-            <figure class="logo">
-                <img src="images/logo_av.png" alt="Logo de Andres Valencia" width="90px" />
+            <figure class="logo">                
+                <img src="images/logoAV.png" alt="Logo de Andres Valencia" height="45px" />
+                <p><strong>A</strong>ndres <strong>V</strong>alencia</p>
             </figure>
             <nav class="menu">
                 <ol>
@@ -24,7 +26,9 @@
                         <a class="link" href="#estudios">Estudios</a>
                     </li>
                     <li>
-                        <a class="link" href="#contacto">Trabajemos Juntos</a>
+                        <a class="link" href="#contacto">
+                           <span>Trabajemos Juntos</span>
+                        </a>
                     </li>
                 </ol>
             </nav>                    
@@ -33,14 +37,13 @@
     <section class="hero">
         <div class="container"> 
             <h1>
-                Hola! Soy
+                Hola! Soy <br>
                 <strong>Andres Valencia</strong>
-                <br> Desarrollador frontend
-                <br> apasionado por la
-                <strong>tecnología</strong>
+                <br> Desarrollador web<span>.</span>                
             </h1>
             <figure>
-                <img class="hero-image" src="images/hero_1.png" alt="Foto Portada">
+                <div class="hero-image-border"></div>                
+                <img class="hero-image" src="images/hero_1.png" alt="Foto Portada">                
             </figure>
         </div>
     </section>
@@ -49,31 +52,57 @@
             <h2>Portafolio (Proyectos Destacados)</h2>
             <article class="project">
                 <div class="project-details">
-                    <h3 class="project-title">Vinculación Digital Valores Bancolombia</h3>
-                    <h6 class="project-language">Angular 4 / Typescript</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 01/06/2019</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.suvalor.com/vinculacionDigital/inicio</small></p>
+                    <h3 class="project-title">Vinculación Digital</h3>
+                    <h6 class="project-language">Angular 4 / Typescript</h6>                    
+                    <p class="project-date">Fecha: <span>01/06/2019</span></p>
+                    <p class="project-url">Puedes verlo en: <a href="https://www.suvalor.com/vinculacionDigital/inicio" target="_blank">www.suvalor.com/vinculacionDigital/inicio</a></p>
                     <p class="project-description">Vinculación Digital Valores Bancolombia es una aplicación web creada para usuarios finales que desean vincularse
                         como clientes para realizar inversiones en Valores Bancolombia</p>                
                 </div>
                 <figure class="project-image-container">
-                    <img class="project-image" src="images/ProyectoVinculacion.png" alt="Proyecto vinculacion" width="500">
+                    <img class="project-image" src="images/vin_project.png" alt="Proyecto vinculacion" >
                 </figure>                
             </article>
             <article class="project">
                 <div class="project-details">
-                    <h3 class="project-title">Vinculación Digital Valores Bancolombia</h3>
-                    <h6 class="project-language">Angular 4 / Typescript</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 01/06/2019</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong>https://www.suvalor.com/vinculacionDigital/inicio</small></p>
-                    <p class="project-description">Vinculación Digital Valores Bancolombia es una aplicación web creada para usuarios finales que desean vincularse
-                        como clientes para realizar inversiones en Valores Bancolombia</p>                
+                    <h3 class="project-title">Formulario Digital de Vinculación</h3>
+                    <h6 class="project-language">Angular 4 / Typescript</h6>                    
+                    <p class="project-date">Fecha: <span>01/11/2018</span></p>
+                    <p class="project-url">Puedes verlo en: <a href="https://www.suvalor.com/vinculacion/inicio" target="_blank">www.suvalor.com/vinculacion/inicio</a></p>
+                    <p class="project-description">Formulario digital de vinculación es una aplicación web que guia al usuarios por diferentes pantallas solitando información 
+                        personal para prediligenciar una serie de documentos digitales los cuales estarán disponibles en formato PDF al completar todos pasos</p>                
                 </div>
                 <figure class="project-image-container">
-                    <img class="project-image" src="images/ProyectoVinculacion.png" alt="Proyecto vinculacion" width="500">
+                    <img class="project-image" src="images/form_dig_vin2.png" alt="Formulario Digital" >
                 </figure>                
             </article>
-        </div>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Portafolio Personal</h3>
+                    <h6 class="project-language">HTML / CSS</h6>                    
+                    <p class="project-date">Fecha: <span>01/07/2019</span></p>
+                    <p class="project-url">Puedes verlo en: <a href="" target="_blank">www.AndresValencia.com</a></p>
+                    <p class="project-description">Sitio web desarrollado para promover mi portafolio personal. Es una muestra de los proyectos destacados, trabajos personales y
+                         conocimientos en software</p>                
+                </div>
+                <figure class="project-image-container">
+                    <img class="project-image" src="images/personal_brand.png" alt="Personal brand" >
+                </figure>                
+            </article>
+            <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Juego Simón dice</h3>
+                        <h6 class="project-language">HTML / CSS / Javascript</h6>                    
+                        <p class="project-date">Fecha: <span>01/05/2019</span></p>
+                        <p class="project-url">Puedes verlo en: <a href="https://afvalenciab.github.io/JuegoJavaScript/" target="_blank">afvalenciab.github.io/JuegoJavaScript/</a></p>
+                        <p class="project-description">Famoso juego Simón dice, para estimular la memoria. Deberás recordar la secuencia de colores generada y luego repetirla presionando los colores correctos. En 
+                            cada nivel aumente la la cantidad de colores y velocidad</p>                
+                    </div>
+                    <figure class="project-image-container">
+                        <img class="project-image" src="images/personal_brand.png" alt="Personal brand" >
+                    </figure>                
+                </article>
+
     </section>
     <section id="estudios" class="study">
         <div class="container">
