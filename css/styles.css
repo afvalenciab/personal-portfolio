@@ -153,8 +153,14 @@ ol, li{
     border-top: 300px solid transparent;
     border-left: 150px solid #FAFAFA;
     position: absolute;
+    margin-left: -1px;
+    margin-top: 1px;    
 }
-
+.hero-image-border2{
+    border-top: 300px solid transparent;
+    border-left: 150px solid #FAFAFA;
+    position: absolute;  
+}
 .portfolio{
     background: #FAFAFA;
     margin: 12px 0px;
