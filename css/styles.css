@@ -140,15 +140,16 @@ ol, li{
     justify-content: space-between;
 }
 .hero figure{  
+    overflow: hidden;
     height: inherit;  
     display: flex;
+    box-shadow: 15px 0px 16px -15px black;
 }
 
 .hero-image{
     object-fit: cover;
     width: 500px;  
-    height: inherit;
-    box-shadow: 15px 0px 16px -15px black;
+    height: inherit;    
 }
 
 .hero-image-border{
@@ -389,7 +390,9 @@ ol, li{
     h1{
         font-size: 35px;
     }
-
+    .hero figure{
+        width: auto;
+    }
     .hero-image{
         width: auto;
     }
