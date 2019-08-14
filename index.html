@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Megrim|Reenie+Beanie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -10,23 +10,24 @@
     <title>Andres F. Valencia B.</title>
 </head>
 
-<body>
+<body>    
+    <i id="burger-button" class="icon-menu burger-button" ></i>    
     <header class="header">
         <div class="container">
             <figure class="logo">                
                 <img src="images/logoAV.png" alt="Logo de Andres Valencia" height="45px" />
                 <p><strong>A</strong>ndres <strong>V</strong>alencia</p>
             </figure>
-            <nav class="menu">
+            <nav id="menu" class="menu">
                 <ol>
                     <li>
-                        <a class="link" href="#portafolio">Portafolio</a>
+                        <a class="link" href="#portafolio" onclick="showHide()">Portafolio</a>
                     </li>
                     <li>
-                        <a class="link" href="#estudios">Estudios</a>
+                        <a class="link" href="#estudios" onclick="showHide()">Estudios</a>
                     </li>
                     <li>
-                        <a class="link" href="#contacto">
+                        <a class="link" href="#contacto" onclick="showHide()">
                            <span>Contacto</span>
                         </a>
                     </li>
@@ -165,8 +166,8 @@
                         </figure>
                     </a>                   
                 </article>
-            </div>
-        </div>
+            </div>            
+        </div>        
     </section>
     <section id="contacto" class="contact">        
         <div class="container">    
@@ -177,14 +178,15 @@
                 <a href="https://www.linkedin.com/in/andres-felipe-valencia-benitez-31233438/" target="_blank" class="social-link linkedin" title="Linkedin"></a>
                 <a href="https://github.com/afvalenciab" target="_blank" class="social-link github" title="GitHub"></a>                
             </div>            
-        </div>
+        </div>        
     </section>
-    <footer class="footer">
+    <footer class="footer">        
         <div class="container">            
             <p>Andres Felipe Valencia Benitez - Portafolio Personal 2019 </p>            
             <p>Designed by <a href="https://www.linkedin.com/in/andres-felipe-valencia-benitez-31233438/" target="_blank">Andres Valencia</a></p>
         </div>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
